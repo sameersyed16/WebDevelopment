@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Data collection</legend>
+        <h3>My Form For collocting data</h3>
+        name : <input type="text" name="name" placeholder="Enter your name" required="" maxlength="10" autofocus=""/>
+        <br/>
+        <br/>
+        age : <input type="number" name="age" min="5" max="20" required=""/>
+        <br/>
+        <br/>
+        address: <textarea name="address"></textarea>
+        <br/>
+        <br/>
+        gender: 
+        <input type="radio" value="female" /> Female
+        <input type="radio" value="male"/> male
+        <br/>
+        <br/>
+        College:
+        <select required="">
+            <optgroup label="ATP"></optgroup>
+            <option value="srit">SRIT</option>
+            <option value="pvkk">PVKK</option>
+            <optgroup label="KDP"></optgroup>
+            <option value="cbit">cbit</option>
+            <option value="aits">aits</option>
+        </select>
+        <br/>
+        <br/>
+        Hobbies:
+        <input type="checkbox" value="Gym" checked=""/>Gym
+        <input type="checkbox" value="love"/>loving
+        <input type="checkbox" value="read"/>reading
+        <br/>
+        <br/>
+        File:
+        <input type="file" name="file" required=""/>
+        <br/>
+        <br/>
+        colour:
+        <input type="color" value="color"/>
+        <br/>
+        <br/>
+        Email:
+        <input type="email" value="" placeholder="Enter Email" required=""/>
+        <br/>
+        <br/>
+        Passwor:
+        <input type="password" value="password"/>
+        <br/>
+        <br/>
+        Secrate:
+        <input type="hidden" value="hid"/>
+        <br/>
+        <br/>
+        Date: <input type="date" value="date"/>
+        <br/>
+        <br/>
+        Date Time: <input type="datetime-local" value="dtl"/>
+        <br/>
+        <br/>
+        time: <input type="time" value="time"/>
+        <br/>
+        <br/>
+        month: <input type="month" value="month"/>
+        <br/>
+        <br/>
+        week: <input type="week" value="week"/>
+        <br/>
+        <br/>
+        range: <input type="range" value="range"/>
+        <br/>
+        <br/>
+        <input type="submit" name="submit"/> <input type="reset" name="reset"/>
+    </fieldset>
+    </form>
+</body>
+</html>
