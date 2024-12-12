@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+           height: 80px; 
+           
+           column-gap: 50px;
+           
+           column-rule: 4px double pink;
+           column-width: 300px
+        }
+        .h2{
+            column-span: all;
+        }
+        .main2{
+            width: 500px;
+            height: 500px;
+            background-color: blueviolet;
+            opacity: 0.4;
+            transition: 3s;
+        }
+        .main2:hover{
+            opacity: 1;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            margin-top: 100px;
+            position: relative;
+        }
+        .add{
+            width: 100%;
+            font-size: 20px;
+            background-color: rgb(65, 62, 62);
+            position: absolute; 
+            left: 0px;
+            bottom: 10px;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .box:hover .add{
+            bottom: 0px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+       <h3 class="h2"> 3rd unit </h3>
+Explain briefly about the Hyperledger fabric components
+Explain about creating a Token, Deploying the Contract & 
+Playing with Contracts.
+Explain the error handling mechanism in Hyperledger.
+Discuss in detail about platforms for high-value digital collectibles.
+Explain in detail about overview of Hyperledger
+Differentiate between public blockchain and private blockchain
+with an example.
+Discuss the benefits of Hyperledger fabric.
+Explain in detail about installing Hyperledger fabric & composer
+    </div>
+    <div class="main2">
+    </div>
+    <div class="box">
+        <img src="sameer.jpg" width="100%" height="100%" />
+        <input type="button" name="" value="ADD TO CART" class="add"/>
+    </div>
+</body>
+</html>
