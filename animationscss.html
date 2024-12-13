@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-con{
+            width: 600px;
+            height: 600px;
+            border: 2px black solid;
+            margin: auto;
+            position: relative;
+
+        }
+        .box{
+            width: 80px;
+            height: 80px;
+            background-color: aqua;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            animation: box 7s;
+            animation-timing-function: ease-in-out;
+            /*animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: both;*/ 
+
+
+        }
+        @keyframes box{
+            from{
+                left: 0px;
+            }
+            to{
+                left: 520px;
+            }
+            /*0%{
+                top: 0px;
+                left: 0px; 
+                background-color: blanchedalmond;
+            }
+            10%{
+                top: 0px;
+                left: 520px;
+                background-color: blueviolet;
+            }
+            20%{
+                top: 520px;
+                left: 520px; 
+                background-color: rgb(2, 2, 100);
+            }
+            30%{
+                top: 520px;
+                left: 0px;
+                background-color: rgb(0, 55, 55); 
+            }
+            40%{
+                top: 0px;
+                left: 0px; 
+                background-color: rgb(255, 92, 92);
+            }*/
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box-con">
+        <div class="box"> Linear
+
+        </div>
+    </div>
+</body>
+</html>
