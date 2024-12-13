@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    border: 2px black solid;
+    position: relative;
+}
+.moon{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(70, 94, 94);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    animation: moon 10s linear;
+    animation-iteration-count: infinite;
+}
+.btfy{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    opacity: 0.4;
+    animation: btfy 5s linear;
+    animation-iteration-count: infinite;
+
+}
+.btfy1{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 40px;
+    right: -10px;
+    opacity: 0.4;
+    animation: btfy1 5s linear;
+    animation-iteration-count: infinite;
+
+}
+.btfy2{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    opacity: 0.4;
+    animation: btfy2 6s linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes btfy{
+    from{
+        top: 20px;
+        left: -50px;
+    }
+    to{
+        top: 20px;
+        left: 110%;
+    }
+}
+@keyframes btfy1{
+    from{
+        top: 40px;
+        right: -10px;
+    }
+    to{
+        top: 40px;
+        right: 110%;
+    }
+}
+@keyframes btfy2{
+    from{
+        top: 55px;
+        left: 250px;
+    }
+    to{
+        top: 40px;
+        left: 110%;
+    }
+
+}
+@keyframes moon{
+    from{
+    top: 50px;
+    left: -50px;
+    background: rgb(103, 103, 151);
+}
+to{
+    top: 15%;
+    left: 110%;
+    background: rgb(253, 164, 0);
+}
+}
